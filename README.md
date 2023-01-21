@@ -21,5 +21,10 @@ Considérons un signal périodique x(t) constitué d’une somme de trois sinuso
 
 on a 𝐱(𝐭)=𝟏.𝟐𝐜𝐨𝐬(𝟐𝐩𝐢𝟒𝟒𝟎𝐭+𝟏.𝟐)+𝟑𝐜𝐨𝐬(𝟐𝐩𝐢𝟓𝟓𝟎𝐭)+𝟎.𝟔𝐜𝐨𝐬(𝟐𝐩𝐢𝟐𝟓𝟎𝟎𝐭)
 
-1- Tracer le signal x(t). Fréquence d’échantillonnage : fe = 10000Hz, Intervalle : Nombre d’échantillons : N = 5000.
+<H3>1- Tracer le signal x(t). Fréquence d’échantillonnage : fe = 10000Hz, Intervalle : Nombre d’échantillons : N = 5000.</H3>
 ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/TD1_1.1.png?raw=true)
+![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/TD1_1.2.png?raw=true)
+
+
+<H3>2- Calculer la TFD du signal x(t) en utilisant la commande fft, puis tracer son spectre</H3>
+
