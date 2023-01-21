@@ -29,4 +29,13 @@ on a 𝐱(𝐭)=𝟏.𝟐𝐜𝐨𝐬(𝟐𝐩𝐢𝟒𝟒𝟎𝐭+𝟏.𝟐)+�
 ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/TD1_2.2.png?raw=true)
 ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/TD1_2.png?raw=true)
 
-
+on va obtenir 6 piques , car la transformée de fourier représente la symétrique conjugué, le spectre est toujours symétrique par rapport a la frequnace d'echantillonage
+  
+3. Pour mieux visualiser le contenu fréquentiel du signal, utiliser la fonction fftshift, qui effectue un décalage circulaire centré sur zéro du spectre en amplitude obtenu par la commande fft.
+  
+  ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/TD1_.3.2.png?raw=true)
+  ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/TD1_.3.png?raw=true)
+  
+  
+  4- Création d'un nouveau signal xnoise, en introduisant un bruit blanc gaussien dans le signal d’origine x(t)
+  
