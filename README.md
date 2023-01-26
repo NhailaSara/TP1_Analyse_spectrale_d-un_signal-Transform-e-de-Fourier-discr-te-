@@ -41,4 +41,13 @@ on va obtenir 6 piques , car la transformée de fourier représente la symétriq
   Utilisation de la commande <b>randn</b> pour générer ce bruit.
   Il est à noter qu’un bruit blanc est une réalisation d'un processus aléatoire dans lequel la densité spectrale de puissance est la même pour toutes les fréquences de la bande passante. Ce bruit suit une loi normale de moyenne 0 et d’écart type 1.
   ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/tp1_4.png?raw=true)
+  ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/tp1_4.png?raw=true)
+  
+  
+  5 – Utiliser la commande sound pour écouter le signal et puis le signal bruité.
+
+  pour écouter le bruit on utilise : <b>sound(xnoise)</b>, <b>sound(x+xnoise)</b>.
+La puissance du signal en fonction de la fréquence (densité spectrale de puissance)est une métrique couramment utilisée en traitement du signal. Elle est définie comme étant le carré du module de la TFD, divisée par le nombre d'échantillons de fréquence.
+  
+6- Calculez puis tracer le spectre de puissance du signal bruité centré à la fréquence
   
