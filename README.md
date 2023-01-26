@@ -37,5 +37,8 @@ on va obtenir 6 piques , car la transformée de fourier représente la symétriq
   ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/TD1_.3.png?raw=true)
   
   
-  4- Création d'un nouveau signal xnoise, en introduisant un bruit blanc gaussien dans le signal d’origine x(t)
+  4- Création d'un nouveau signal xnoise, en introduisant un bruit blanc gaussien dans le signal d’origine x(t).
+  Utilisation de la commande <b>randn</b> pour générer ce bruit.
+  Il est à noter qu’un bruit blanc est une réalisation d'un processus aléatoire dans lequel la densité spectrale de puissance est la même pour toutes les fréquences de la bande passante. Ce bruit suit une loi normale de moyenne 0 et d’écart type 1.
+  ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/tp1_4.png?raw=true)
   
