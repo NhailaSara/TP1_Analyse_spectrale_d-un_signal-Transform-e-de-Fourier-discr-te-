@@ -49,6 +49,35 @@ on va obtenir 6 piques , car la transformée de fourier représente la symétriq
   pour écouter le bruit on utilise : <b>sound(xnoise)</b>, <b>sound(x+xnoise)</b>.
 La puissance du signal en fonction de la fréquence (densité spectrale de puissance)est une métrique couramment utilisée en traitement du signal. Elle est définie comme étant le carré du module de la TFD, divisée par le nombre d'échantillons de fréquence.
   
-6- Calculez puis tracer le spectre de puissance du signal bruité centré à la fréquence<br/>
- ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/6_AFF.png?raw=true)
+6- Calculez puis tracer le spectre de puissance du signal bruité centré à la fréquence
+![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/6_AFF.png?raw=true)
 ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/6_CODE.png?raw=true)
+
+  Interprétation de résultat obtenu après augmentation de l’intensité de bruit :
+  ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/interpretation_6.png?raw=true)
+  
+  <H1>Partie 2: Analyse fréquentielle du chant du rorqual bleu</H1>
+  
+  
+
+    Introduction :
+
+        Il existe plusieurs signaux dont l’information est encodée dans des sinusoïdes. Les ondes sonores est un bon exemple. Considérons maintenant des données audios collectées à partir de microphones sous - marins au large de la Californie. On cherche à détecter à travers une analyse de Fourier le contenu fréquentiel d’une onde sonore émise pas un rorqual bleu.
+
+        Les rorquals bleus accordent leurs vocalises de basse fréquence de manière extrêmement précise et uniforme, à une fréquence de 16 Hz, selon l’étude récemment publiée dans le Journal of the Acoustical Society of America
+
+        Le but de cet exercice est d’extraire le chant du rorqual bleu du fichier ‘bluewhale.au’ .Ce chant se trouve entre les deux fréquences x=2.45e4 z=3.1e4 après on l entend a travers la commande sound et finalement on le trace avec la commande plot dans un intervalle de temps t=15*(0:1/Fs:(length(rorqualvoice)-1)*(1/Fs))
+
+  <B>1-Chargez, depuis le fichier ‘bluewhale.au’, le sous-ensemble de données qui correspond au chant du rorqual bleu du Pacifique.</B>
+  
+  On utilise la commande audioread pour lire le fichier. Le son à récupérer correspond aux indices allant de 2.45e4 à 3.10e4 Voila un aperçu sur le code :
+  ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/P2_1.png?raw=true)
+  
+  2- Ecoutez ce signal en utilisant la commande sound, puis visualisez-le.
+  
+    * En effet, les appels de rorqual ble sont des sons à basse fréquence, ils sont à peine audibles pour les humains. Pour ces raison on multiplie l'axe temporel en 10
+    * On rappelle que la bande de fréquences audibles par l’oreille humaine s’étale de 20 Hz à 20kHz. Lorsque la fréquence est faible, le son est grave (de 20 à 200 Hz). On parle de son médium pour une fréquence comprise entre 200 et 1000 Hz et de son aigu lorsque la fréquence est comprise entre 1000 et 15000 Hz Voila un aperçu sur le code :
+  
+  ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/P2_2.png?raw=true)
+  ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/p2_2_aff.png?raw=true)
+  
