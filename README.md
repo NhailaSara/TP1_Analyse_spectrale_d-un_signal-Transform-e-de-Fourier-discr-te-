@@ -93,5 +93,5 @@ La puissance du signal en fonction de la fréquence (densité spectrale de puiss
   On observe une fréquence fondamentale qui est conforme a celle des rorquals bleus qui accordent leurs vocalises de basse fréquence de manière extrêmement précise et uniforme, à une fréquence de 16 H
   
   ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/4_fin.png?raw=true)
-Conclusion:
+<br><b>Conclusion:</b></br>
   Dans ce Tp ,nous avons pu découvrir la représentation de signaux et les applications de la transformée de Fourier discrète (TFD) sous Matlab. Ainsi que , l’évaluation de l’intérêt du passage du domaine temporel au domaine fréquentiel dans l’analyse et l’interprétation des signaux physiques réels.
