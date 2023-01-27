@@ -81,3 +81,6 @@ La puissance du signal en fonction de la fréquence (densité spectrale de puiss
   ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/P2_2.png?raw=true)
   ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/p2_2_aff.png?raw=true)
   
+  3- Spécifiez une nouvelle longueur de signal n qui sera une puissance de 2, puis tracer la densité spectrale de puissance du signal.
+  
+  
