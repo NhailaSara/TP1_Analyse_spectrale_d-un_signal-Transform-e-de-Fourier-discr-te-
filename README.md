@@ -50,4 +50,5 @@ on va obtenir 6 piques , car la transformée de fourier représente la symétriq
 La puissance du signal en fonction de la fréquence (densité spectrale de puissance)est une métrique couramment utilisée en traitement du signal. Elle est définie comme étant le carré du module de la TFD, divisée par le nombre d'échantillons de fréquence.
   
 6- Calculez puis tracer le spectre de puissance du signal bruité centré à la fréquence
-  
+  ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/6 AFF.png?raw=true)
+![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/6 CODE.png?raw=true)
