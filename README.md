@@ -79,7 +79,7 @@ La puissance du signal en fonction de la fréquence (densité spectrale de puiss
     * On rappelle que la bande de fréquences audibles par l’oreille humaine s’étale de 20 Hz à 20kHz. Lorsque la fréquence est faible, le son est grave (de 20 à 200 Hz). On parle de son médium pour une fréquence comprise entre 200 et 1000 Hz et de son aigu lorsque la fréquence est comprise entre 1000 et 15000 Hz Voila un aperçu sur le code :
   
   ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/P2_2.png?raw=true)
-   ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/P2_2.png?raw=true)
+   ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/p2_2_aff.png?raw=true)
  
   
   3- Spécifiez une nouvelle longueur de signal n qui sera une puissance de 2, puis tracer la densité spectrale de puissance du signal.
