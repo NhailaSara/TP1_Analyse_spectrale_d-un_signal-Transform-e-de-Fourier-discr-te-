@@ -83,5 +83,13 @@ La puissance du signal en fonction de la fréquence (densité spectrale de puiss
  
   
   3- Spécifiez une nouvelle longueur de signal n qui sera une puissance de 2, puis tracer la densité spectrale de puissance du signal.
+  Pour identifier les composantes fréquentielles de ce signal audio ,on applique la transformée de Fourrier
+  ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/p3_3_sc.png?raw=true)
+  Comme vous remarquer dans les lignes de code le signal subit une compression / 10 pour visualiser les fréquences réelles du gémissement de rorqual bleu.
+  ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/p3_3_aff.png?raw=true)
   
+  4- Déterminer à partir du tracé, la fréquence fondamentale du gémissement de rorqual bleu.
   
+  On observe une fréquence fondamentale qui est conforme a celle des rorquals bleus qui accordent leurs vocalises de basse fréquence de manière extrêmement précise et uniforme, à une fréquence de 16 H
+  
+  ![alt text](https://github.com/NhailaSara/TP1_Analyse_spectrale_d-un_signal-Transform-e-de-Fourier-discr-te-/blob/main/4_fin.png?raw=true)
